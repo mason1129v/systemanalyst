@@ -4,3 +4,12 @@
     list-style: none;
     box-sizing: border-box;
 }
+html::-webkit-scrollbar,body::-webkit-scrollbar{
+    display: none;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
