@@ -1,3 +1,29 @@
 .t_fontsize{
     font-size: 30px;
+}   
+.nav_width{
+    width: 100%;
+}
+.b_nav_w{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding:8px;
+    transition: 0.5s;
+
+}
+.b_nav_w:focus{
+    background-color: blue;
+    opacity: 1;
+}
+.b_nav_w svg{
+    margin: 10px auto;
+    color: white;
+}
+.b_nav_t{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    text-align: center;
 }
