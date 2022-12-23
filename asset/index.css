@@ -10,9 +10,23 @@
 }
 #pills-tabContent{
     margin-top:10px;
-    background-color: yellow;
     padding-top: 63px;
     padding-bottom: 120px;
+}
+#pills-tabContent>.point_bg{
+    background-color: yellow;
+}
+#pills-tabContent>.comp_bg{
+    background-color: orange;
+}
+#pills-tabContent>.home_bg{
+    background-color: aqua;
+}
+#pills-tabContent>.rank_bg{
+    background-color: wheat;
+}
+#pills-tabContent>.rec_bg{
+    background-color: lightblue;
 }
 #pills-tab{
     margin-bottom:0px !important;
