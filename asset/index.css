@@ -28,6 +28,9 @@
 #pills-tabContent>.rec_bg{
     background-color: lightblue;
 }
+#pills-tabContent>.mem_bg{
+    background-color: lightgreen;
+}
 #pills-tab{
     margin-bottom:0px !important;
 }
@@ -45,38 +48,33 @@
 }
 .nav-link{
     border-radius: 0%;
-    margin: 0;
+    margin: 0 0 -10px;
     padding:0;
+    color: black !important;
 }
 .b_nav_w svg{
     margin: 16px auto;
     color: white;
 }
-/*
+.nav-item{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+.dropdown-toggle{
+    margin-bottom: 10px;
+}
+.btn_mem{
+    background-color:transparent;
+    border: none;
 
-.nav-link:focus{
-    background-color: blue;
-    opacity: 1;
 }
-.b_nav_w{
-    width: 20%;
+#same_row{
     display: flex;
-    flex-direction: column;
-    padding:8px;
+    justify-content: space-between;
 }
-.b_nav_w:focus{
-    background-color: blue;
-    opacity: 1;
+.form-control{
+    border-color: black;
 }
-.b_nav_w svg{
-    margin: 10px auto;
-    color: white;
-}
-.b_nav_t{
-    width: 100%;
-    font-size: 15px;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-*/
