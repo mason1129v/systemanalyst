@@ -1,3 +1,7 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+    font-family: Microsoft YaHei,'宋體' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
 .t_fontsize{
     font-size: 30px;
 }  
@@ -79,6 +83,11 @@
     border-color: black;
 }
 
+.offcanvas {
+    background-color: #d4d2d2;
+}
+
+
 .form-check-input:checked {
     background-color: #9999CC;
     border-color: #9999CC;
@@ -87,4 +96,10 @@
 .btn-primary{
     --bs-btn-bg: #b09575;
     --bs-btn-border-color: #b09575;
+    --bs-btn-active-bg: #c9ad8e;
+    --bs-btn-active-border-color: #c9ad8e;
+    --bs-btn-hover-bg: #c9ad8e;
+    --bs-btn-hover-border-color: #c9ad8e;
 }
+
+
