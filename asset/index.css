@@ -21,10 +21,6 @@
 #pills-tabContent>.point_bg, .comp_bg, .home_bg, .rank_bg, .rec_bg{
     background-color: #d4d2d2;
 }
-
-#pills-tabContent>.mem_bg{
-    background-color: lightgreen;
-}
 #pills-tab{
     margin-bottom:0px !important;
     background-color: #c9ad8e !important;
