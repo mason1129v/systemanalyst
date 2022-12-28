@@ -102,3 +102,24 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     --bs-btn-hover-border-color: #c9ad8e;
 }
 
+/*排名*/
+.dropdown-toggle {
+    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.btn-group>.btn-group:not(:first-child), .btn-group>:not(.btn-check:first-child)+.btn {
+    margin-left: 15px;
+}
+
+#placebt{
+    --bs-btn-line-height: 1.1;
+    margin-left: 20px;
+}
+
+#spendwd{
+    font-size: 30px;
+    text-align:center;
+    margin-top: 15px;
+}

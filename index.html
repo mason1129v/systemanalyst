@@ -37,7 +37,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <!--側邊滑出欄-->
-                <div class="offcanvas-body">
+                <div class="offcanvas-body" >
                     <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <button class="nav-item" data-bs-toggle="modal" data-bs-target="#aboutModal">
                             關於
@@ -103,11 +103,36 @@
         </div>
         <div class="tab-pane fade show active main_body home_bg" id="pills-home" role="tabpanel"
             aria-labelledby="pills-home-tab">首頁</div>
+
+        <!--排名-->
         <div class="tab-pane fade main_body rank_bg" id="pills-rank" role="tabpanel" aria-labelledby="pills-rank-tab">
-            碳排排名
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="downbt1">
+                    選擇縣市
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">台北市</a></li>
+                        <li><a class="dropdown-item" href="#">新北市</a></li>
+                        <li><a class="dropdown-item" href="#">桃園市</a></li>
+                        <li><a class="dropdown-item" href="#">台中市</a></li>
+                        <li><a class="dropdown-item" href="#">台南市</a></li>
+                        <li><a class="dropdown-item" href="#">高雄市</a></li>
+                    </ul>
+
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="downbt2">
+                        選擇地區
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                </div>
+                <input class="btn btn-primary" type="submit" value="搜尋" id="placebt">
+
         </div>
         <div class="tab-pane fade main_body rec_bg" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab">
-            消費紀錄
+            <p id="spendwd">消費紀錄</p>
         </div>
     </div>
 
