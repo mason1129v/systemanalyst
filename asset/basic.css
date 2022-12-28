@@ -13,4 +13,5 @@ html,body{
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     background-color: #d4d2d2;
+    z-index: -10;
 }
