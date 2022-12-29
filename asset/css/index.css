@@ -196,17 +196,45 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
 }
 .pnt_cnt{
     width: 100%;
-    height: 300px;
     margin:-10 auto 0;
     padding: 15px 10px;
     background-color:#b09575;
     border-radius: 0 0 10px 10px;
+    min-height: 300px;
 }
 .wrap_pnt{
     background-color: #c9ad8e;
     width: 90%;
     border-radius: 10px;
     margin:auto;
+    min-height: 300px;
+}
+.btn_type{
+    width: 100%;
+    background-color:#c9ad8e;
+    color: black;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.btn_type{
+    --bs-btn-bg: #b09575;
+    --bs-btn-border-color: #b09575;
+    --bs-btn-active-bg: #c9ad8e;
+    --bs-btn-active-border-color: #c9ad8e;
+    --bs-btn-hover-bg: #c9ad8e;
+    --bs-btn-hover-border-color: #c9ad8e;
+}
+.clps{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.card-body{
+    margin-top: 0px;
+    background-color: #b09575;
+    border: 0;
 }
 /*消費紀錄*/
 #spendwd{
