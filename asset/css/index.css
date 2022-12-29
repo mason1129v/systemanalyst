@@ -104,6 +104,17 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     --bs-btn-hover-bg: #c9ad8e;
     --bs-btn-hover-border-color: #c9ad8e;
 }
+/*會員*/
+.img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin:0px auto 10px;
+}
+.mem_img{
+    width: 100%;
+    text-align: center;
+}
 /*首頁*/
 
 /*排名*/
