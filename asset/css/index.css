@@ -155,3 +155,22 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     z-index: 1000;
     position: relative;
 }
+/*點數*/
+.pnt_inf{
+    display: flex;
+    width: 80%;
+    margin: 30px auto 0px;
+    background-color: #c9ad8e;
+}
+.your_pnt{
+    width: 50%;
+    height: 150px;
+}
+.btn_wrap{
+    margin: 0px auto;
+    text-align: center;
+}
+.pnt_rec_btn{
+    width: 80%;
+    border-radius: 0 0 10px 10px;
+}
