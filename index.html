@@ -156,7 +156,7 @@
 
         <!--排名-->
         <div class="tab-pane fade main_body rank_bg" id="pills-rank" role="tabpanel" aria-labelledby="pills-rank-tab">
-            <form>
+            <form action="">
                 <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     data-bs-auto-close="true" aria-expanded="false" id="downbt1">
                     選擇縣市
@@ -180,10 +180,48 @@
                 </ul>
                 <input class="btn btn-primary" type="submit" value="搜尋" id="placebt">
             </form>
+            <form action="">
+                <table class="table table-striped" >
+                    <thead>
+                      <tr>
+                        <th scope="col">排名</th>
+                        <th scope="col">姓名</th>
+                        <th scope="col">碳排量(t)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </form>
         </div>
         <!--紀錄-->
         <div class="tab-pane fade main_body rec_bg" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab">
-            <p id="spendwd">消費紀錄</p>
+            <form action="">
+                <p id="spendwd">消費紀錄</p>
+                <h5 id="spendtxt">AI 智慧喜</h5>
+                <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
+                <h6 id="spenddate">2022/12/29 03:40</h6><hr>
+                <h5 id="spendtxt2">低碳FOOD</h5>
+                <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
+                <h6 id="spenddate">2022/12/29 04:04</h6><hr>
+                <h5 id="spendtxt2">AI XXX</h5>
+                <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
+                <h6 id="spenddate">2022/12/29 04:15</h6><hr>
+            </form>
         </div>
     </div>
 
