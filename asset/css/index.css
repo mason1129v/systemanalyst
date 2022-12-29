@@ -121,11 +121,11 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     width: 100%;
     justify-content: space-between;
     margin: 20px auto;
-    padding: 0px 5%;
+    padding: 0px 13%;
 }
 .comp_btn{
-    width: 30%;
-    height: 30%;
+    width: 45%;
+    height: 45%;
     border-radius: 10%;
 }
 .comp_btn>img{
@@ -152,25 +152,37 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
 }
 /*點數*/
 .pnt_inf{
-    display: flex;
-    width: 80%;
+    height: 170px;
+    width: 90%;
     margin: 30px auto 0px;
     background-color: #c9ad8e;
+    border-radius:10px 10px 0 0;
+    column-count:2;
+    column-rule: thin solid black;
+    column-gap: 30px;
+    padding:20px 10px 0;
+    text-align: center;
 }
-.your_pnt{
-    width: 50%;
-    height: 150px;
+.pnt_inf_t{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.pnt_inf_n{
+    font-size: 40px;
 }
 .btn_wrap{
     margin: 0px auto;
     text-align: center;
 }
 .pnt_rec_btn{
-    width: 80%;
+    width: 90%;
+    height: 60px;
     border-radius: 0 0 10px 10px;
 }
-.table{
-    margin-top: 10px;
+.break_r{
+    height: 1px;
+    width:auto;
+    -webkit-column-break-after: always;
 }
 /*消費紀錄*/
 #spendwd{
