@@ -96,12 +96,26 @@
     </nav>
     <!--各頁面-->
     <div class="tab-content main_body" id="pills-tabContent">
+        <!--點數-->
         <div class="tab-pane fade  main_body point_bg" id="pills-point" role="tabpanel"
             aria-labelledby="pills-point-tab">點數資訊
         </div>
+        <!--廠商-->
         <div class="tab-pane fade main_body comp_bg" id="pills-comp" role="tabpanel" aria-labelledby="pills-comp-tab">
-            合作廠商
+            <div class="comp_btn_group">
+                <a class="btn comp_btn" href="#" role="button"><img src="asset/img/wash_comp.jpg" alt="...">
+                    <p>AI智慧洗</p>
+                </a>
+                <a class="btn comp_btn" href="#" role="button"><img src="asset/img/wash_comp.jpg" alt="...">
+                    <p>AI智慧洗</p>
+                </a>
+                <a class="btn comp_btn" href="#" role="button"><img src="asset/img/wash_comp.jpg" alt="...">
+                    <p>AI智慧洗</p>
+                </a>
+            </div>
+
         </div>
+        <!--首頁-->
         <div class="tab-pane fade show active main_body home_bg" id="pills-home" role="tabpanel"
             aria-labelledby="pills-home-tab">
             <div id="carouselHomeAd" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -156,6 +170,7 @@
                 <input class="btn btn-primary" type="submit" value="搜尋" id="placebt">
             </form>
         </div>
+        <!--紀錄-->
         <div class="tab-pane fade main_body rec_bg" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab">
             <p id="spendwd">消費紀錄</p>
         </div>

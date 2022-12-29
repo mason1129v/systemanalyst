@@ -109,11 +109,29 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin:0px auto 10px;
 }
 .mem_img{
     width: 100%;
     text-align: center;
+    margin:0px auto 10px;
+}
+/*廠商*/
+.comp_btn_group{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 0px 5%;
+}
+.comp_btn{
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+.comp_btn>img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 10%;
 }
 /*首頁*/
 
