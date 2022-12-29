@@ -107,7 +107,28 @@
                 <p class="pnt_inf_n">400000</p>
             </div>
             <div class="btn_wrap">
-                <button class="btn btn-primary pnt_rec_btn" type="button">點數使用紀錄</button>
+                <button class="btn btn-primary pnt_rec_btn" data-bs-toggle="modal"
+                    data-bs-target="#pntrecModal">點數使用紀錄</button>
+            </div>
+            <div class="wrap_pnt">
+                <nav>
+                    <div class="nav nav-tabs pnt_tab nav-pills" id="nav-tab" role="tablist">
+                        <button class="nav-link active pnt_tab_btn" id="pnt-exc-tab" data-bs-toggle="tab"
+                            data-bs-target="#pnt-exc" type="button" role="tab" aria-controls="pnt-exc"
+                            aria-selected="true">點數兌換</button>
+                        <button class="nav-link pnt_tab_btn" id="pnt_svc-tab" data-bs-toggle="tab"
+                            data-bs-target="#pnt_svc" type="button" role="tab" aria-controls="pnt_svc"
+                            aria-selected="false">可用服務</button>
+                    </div>
+                </nav>
+                <div class="tab-content pnt_cnt" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="pnt-exc" role="tabpanel" aria-labelledby="pnt-exc-tab">
+                        點數兌換
+                    </div>
+                    <div class="tab-pane fade" id="pnt_svc" role="tabpanel" aria-labelledby="pnt_svc-tab">
+                        可用服務
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -177,31 +198,31 @@
                 <input class="btn btn-primary" type="submit" value="搜尋" id="placebt">
             </form>
             <form action="">
-                <table class="table table-striped" >
+                <table class="table table-striped">
                     <thead>
-                      <tr>
-                        <th scope="col">排名</th>
-                        <th scope="col">姓名</th>
-                        <th scope="col">碳排量(t)</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">排名</th>
+                            <th scope="col">姓名</th>
+                            <th scope="col">碳排量(t)</th>
+                        </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                      </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                        </tr>
                     </tbody>
-                  </table>
+                </table>
             </form>
         </div>
         <!--紀錄-->
@@ -210,13 +231,16 @@
                 <p id="spendwd">消費紀錄</p>
                 <h5 id="spendtxt">AI 智慧喜</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
-                <h6 id="spenddate">2022/12/29 03:40</h6><hr>
+                <h6 id="spenddate">2022/12/29 03:40</h6>
+                <hr>
                 <h5 id="spendtxt2">低碳FOOD</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
-                <h6 id="spenddate">2022/12/29 04:04</h6><hr>
+                <h6 id="spenddate">2022/12/29 04:04</h6>
+                <hr>
                 <h5 id="spendtxt2">AI XXX</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt">
-                <h6 id="spenddate">2022/12/29 04:15</h6><hr>
+                <h6 id="spenddate">2022/12/29 04:15</h6>
+                <hr>
             </form>
         </div>
     </div>
@@ -401,6 +425,20 @@
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#memModal"
                             data-bs-dismiss="modal">取消</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--點數紀錄-->
+    <div class="modal fade" id="pntrecModal" aria-hidden="true" aria-labelledby="pntrecModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="pntrecModalLabel">點數使用紀錄</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
                 </div>
             </div>
         </div>
