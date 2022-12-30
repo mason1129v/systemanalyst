@@ -150,6 +150,9 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     z-index: 1000;
     position: relative;
 }
+#placetable{
+    text-align: center;
+}
 /*點數*/
 .pnt_inf{
     height: 170px;
