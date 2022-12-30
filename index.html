@@ -22,7 +22,6 @@
     <nav class="navbar bg-info position-fixed top-0 nav_width" aria-label="Light offcanvas navbar" id="nav_bg"
         style="z-index: 10000;">
         <div class="container-fluid">
-
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-gear-fill"
@@ -128,18 +127,29 @@
                             data-bs-target="#collapsefood" aria-expanded="false" aria-controls="collapsefood">
                             食
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapsefood">
-                            <div class="card card-body">
-                                Some placeholder content for the collapse component. This panel is hidden by default but
-                                revealed when the user activates the relevant trigger.
+                            <div class="card card-body" style="padding:5px 0;">
+                                <form action="" data-bs-toggle="modal" data-bs-target="#pntexcModal">
+                                    <div class="voucher">
+                                        <div>
+                                            <p class="v_title">可食用牛肉500g</p>
+                                            <p class="v_price">所需點數:800</p>
+                                            <p class=" v_dtl">使用期限:兌換後一個月內</p>
+                                        </div>
+                                        <div class="wrap_pexc">
+                                            <input type="submit" class="btn btn-primary pnt_exchange"
+                                                value="兌換"></input>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <button class="btn btn_type" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseclo" aria-expanded="false" aria-controls="collapseclo">
                             衣
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapseclo">
                             <div class="card card-body">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
@@ -150,7 +160,7 @@
                             data-bs-target="#collapselive" aria-expanded="false" aria-controls="collapselive">
                             住
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapselive">
                             <div class="card card-body">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
@@ -161,7 +171,7 @@
                             data-bs-target="#collapsetrans" aria-expanded="false" aria-controls="collapsetrans">
                             行
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapsetrans">
                             <div class="card card-body">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
@@ -172,7 +182,7 @@
                             data-bs-target="#collapseedu" aria-expanded="false" aria-controls="collapseedu">
                             育
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapseedu">
                             <div class="card card-body">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
@@ -183,7 +193,7 @@
                             data-bs-target="#collapsejoy" aria-expanded="false" aria-controls="collapsejoy">
                             樂
                         </button>
-                        </p>
+
                         <div class="collapse clps" id="collapsejoy">
                             <div class="card card-body">
                                 Some placeholder content for the collapse component. This panel is hidden by default but
@@ -232,9 +242,14 @@
                         <img src="asset/img/slidead3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-
             </div>
-
+            <div class="home_inf">
+                <p class="pnt_inf_t">累積碳排放量</p>
+                <p class="pnt_inf_n">139t</p>
+                <div class="break_r"></div>
+                <p class="pnt_inf_t">本月碳排放量</p>
+                <p class="pnt_inf_n">10.234t</p>
+            </div>
         </div>
 
         <!--排名-->
@@ -304,21 +319,21 @@
             <form action="">
                 <h5 id="spendtxt">AI 智慧喜</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal">
+                    data-bs-target="#detailModal" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 03:40</h6>
                 <hr class="rec_hr">
             </form>
             <form action="">
                 <h5 id="spendtxt2">低碳FOOD</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal">
+                    data-bs-target="#detailModal" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 04:04</h6>
                 <hr class="rec_hr">
             </form>
             <form action="">
                 <h5 id="spendtxt2">AI XXX</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal">
+                    data-bs-target="#detailModal" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 04:15</h6>
                 <hr class="rec_hr">
             </form>
@@ -517,6 +532,20 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="pntrecModalLabel">點數使用紀錄</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--確認兌換服務-->
+    <div class="modal fade" id="pntexcModal" aria-hidden="true" aria-labelledby="pntexcModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="pntexcModalLabel">確認兌換服務</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
