@@ -252,11 +252,12 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     margin-left: 25px;
     color: #7B7B7B;
 }
-hr{
+.rec_hr{
+    width: 90%;
+    margin: auto;
     opacity: 70;
     color: #b09575 ;
     size: 20px;
-    width: auto;
 }
 .spendline{
     color: #b09575;
