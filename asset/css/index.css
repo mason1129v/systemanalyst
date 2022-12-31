@@ -327,3 +327,32 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     margin-top: -20px;
     margin-right: 35px;
 }
+/*關於*/
+.aboutimg-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.about_img{
+    width: 100%;
+    text-align: left;
+    margin:0px auto 10px;
+}
+.about_mem{
+    width: 100%;
+}
+.about_name{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.about_hr{
+    width: 100%;
+    margin: auto;
+    opacity: 70;
+    color: #6f6c69 ;
+    size: 20px;
+}
+#about_title{
+    font-style: italic !important;
+}
