@@ -108,7 +108,7 @@
             </div>
             <div class="btn_wrap">
                 <button class="btn btn-primary pnt_rec_btn" data-bs-toggle="modal"
-                    data-bs-target="#pntrecModal">點數使用紀錄</button>
+                    data-bs-target="#pntrecModal">點數增減紀錄</button>
             </div>
             <div class="wrap_pnt">
                 <nav>
@@ -177,7 +177,7 @@
                                 <form action="" data-bs-toggle="modal" data-bs-target="#pntexcModal">
                                     <div class="voucher">
                                         <div>
-                                            <p class="v_title">可吹冷氣1hr</p>
+                                            <p class="v_title">吹冷氣1hr</p>
                                             <p class="v_price">所需點數:2500</p>
                                             <p class=" v_dtl">使用期限:兌換後一個月內</p>
                                         </div>
@@ -235,7 +235,30 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pnt_svc" role="tabpanel" aria-labelledby="pnt_svc-tab">
-                        可用服務
+                        <form action="" data-bs-toggle="modal" data-bs-target="#pntuseModal">
+                            <div class="voucher">
+                                <div>
+                                    <p class="v_title">觀看NETFLIX 1hr</p>
+                                    <p class="v_price">所需點數:300~500</p>
+                                    <p class=" v_dtl">使用期限:2023/1/31</p>
+                                </div>
+                                <div class="wrap_pexc">
+                                    <input type="submit" class="btn btn-primary pnt_exchange" value="使用"></input>
+                                </div>
+                            </div>
+                        </form>
+                        <form action="" data-bs-toggle="modal" data-bs-target="#pntuseModal">
+                            <div class="voucher">
+                                <div>
+                                    <p class="v_title">吹冷氣1hr</p>
+                                    <p class="v_price">所需點數:2500</p>
+                                    <p class=" v_dtl">使用期限:2023/2/10</p>
+                                </div>
+                                <div class="wrap_pexc">
+                                    <input type="submit" class="btn btn-primary pnt_exchange" value="使用"></input>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -570,7 +593,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="pntrecModalLabel">點數使用紀錄</h3>
+                    <h3 class="modal-title" id="pntrecModalLabel">點數增減紀錄</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -585,6 +608,20 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="pntexcModalLabel">確認兌換服務</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--確認使用服務-->
+    <div class="modal fade" id="pntuseModal" aria-hidden="true" aria-labelledby="pntuseModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="pntuseModalLabel">確認使用服務</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
