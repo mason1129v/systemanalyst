@@ -356,6 +356,21 @@
                             <td>陳OO</td>
                             <td>5.456</td>
                         </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>朴OO</td>
+                            <td>6.234</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>金OO</td>
+                            <td>6.345</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>田OO</td>
+                            <td>7.456</td>
+                        </tr>
                         <tr class="table-primary">
                             <th scope="row">76</th>
                             <td>王OO</td>
@@ -372,21 +387,21 @@
             <form action="">
                 <h5 id="spendtxt">AI 智慧喜</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal" data-bs-dismiss="modal">
+                    data-bs-target="#detailModal1" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 03:40</h6>
                 <hr class="rec_hr">
             </form>
             <form action="">
                 <h5 id="spendtxt2">低碳FOOD</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal" data-bs-dismiss="modal">
+                    data-bs-target="#detailModal1" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 04:04</h6>
                 <hr class="rec_hr">
             </form>
             <form action="">
                 <h5 id="spendtxt2">AI XXX</h5>
                 <input class="btn btn-primary" type="submit" value="詳細資訊" id="spendbt" data-bs-toggle="modal"
-                    data-bs-target="#detailModal" data-bs-dismiss="modal">
+                    data-bs-target="#detailModal1" data-bs-dismiss="modal">
                 <h6 id="spenddate">2022/12/29 04:15</h6>
                 <hr class="rec_hr">
             </form>
@@ -646,7 +661,7 @@
         </div>
     </div>
     <!--消費詳細資訊-->
-    <div class="modal fade" id="detailModal" aria-hidden="true" aria-labelledby="detailModalLabel" tabindex="-1">
+    <div class="modal fade" id="detailModal1" aria-hidden="true" aria-labelledby="detailModalLabel" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -654,7 +669,11 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-
+                        <h4>AI 智慧喜</h4>
+                        <h5>日期：2022/12/29 03:40</h5>
+                        <h4>消費內容：</h4>
+                        <h5>洗衣件數：</h5>
+                        <h5>總金額：</h5>
                 </div>
             </div>
         </div>
@@ -668,8 +687,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h4>關於系統</h4>
-
+                    <h4 id="about_title">關於碳制郎</h4>
+                    <h5>用於</h5>
                     <hr class="about_hr">
                     <h4 id="about_title">關於我們</h4>
                     <div class="about_mem">
