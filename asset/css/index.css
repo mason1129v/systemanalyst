@@ -291,7 +291,10 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
     font-size: 16px;
     margin: 5px;
 }
-
+.check_exc_t{
+    font-size: 22px;
+    
+}
 /*消費紀錄*/
 #spendwd{
     font-size: 30px;
